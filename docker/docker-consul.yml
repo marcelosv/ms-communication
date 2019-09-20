@@ -1,0 +1,9 @@
+consul:
+    image: consul
+    ports:
+      - 8600:53/tcp
+      - 8600:53/udp
+      - 8500:8500
+      - 8400:8400
+    restart: always
+

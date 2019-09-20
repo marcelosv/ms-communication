@@ -1,0 +1,1 @@
+{"codigoPassagem":1, "nroCartao":123, "codigoSegurancaCartao":12, "valorPassagem":500}

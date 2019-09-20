@@ -1,0 +1,12 @@
+version: '2'
+
+services:
+  rabbitmq:
+    image: rabbitmq:3-management
+    ports:
+      - 8881:15672
+      - 5671:5671
+      - 5672:5672
+    environment:
+      RABBITMQ_DEFAULT_USER: rabbit666
+      RABBITMQ_DEFAULT_PASS: melhorsenhadomundo
