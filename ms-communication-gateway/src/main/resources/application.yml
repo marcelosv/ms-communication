@@ -1,0 +1,17 @@
+eureka:
+  client:
+    registerWithEureka: true
+    fetchRegistry: true
+  instance:
+    lease-renewal-interval-in-seconds: 5
+
+zuul:
+  routes:
+    index:
+      sensitiveHeaders:
+      path: /comprar/**
+      url: http://127.0.0.1:8086/
+    bridgekc:
+      sensitiveHeaders:
+      path: /status/**
+      url: http://127.0.0.1:8082/

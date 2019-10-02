@@ -1,0 +1,6 @@
+eureka:
+  client:
+    registerWithEureka: true
+    fetchRegistry: true
+  instance:
+    lease-renewal-interval-in-seconds: 5
